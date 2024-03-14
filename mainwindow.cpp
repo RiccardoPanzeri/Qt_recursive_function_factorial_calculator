@@ -13,6 +13,9 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->lcdNumber_risultato->setDigitCount(10);
     ui->lineEdit_numero->setText("0");
+    ui->pushButton_calcola->setStyleSheet("QPushButton{color: rgb(97, 255, 29)} QPushButton:focus { color: white; };");
+    ui->pushButton_cancella->setStyleSheet("QPushButton{color: rgb(97, 255, 29)} QPushButton:focus { color: white; };");
+    ui->lcdNumber_risultato->setFocus();
 
 }
 

@@ -17,20 +17,16 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-MainWindow QmessageBox{
-	background-color: rgb(180, 176, 176);
-	color: rbg(97, 255, 9);
-	font: 700 italic 22pt &quot;Terminal&quot;;
-}
-</string>
+   <string notr="true"/>
   </property>
   <property name="inputMethodHints">
    <set>Qt::ImhNone</set>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/img/img/darksteel.png);</string>
+    <string notr="true">background-image: url(:/img/img/darksteel.png);
+
+</string>
    </property>
    <layout class="QGridLayout" name="gridLayout">
     <item row="9" column="1">
@@ -62,6 +58,15 @@ color: rgb(97, 255, 29);
       </property>
       <property name="text">
        <string>Reset</string>
+      </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
       </property>
      </widget>
     </item>
@@ -115,6 +120,9 @@ color: rgb(97, 255, 29);
       </property>
       <property name="text">
        <string>Calcola Fattoriale</string>
+      </property>
+      <property name="default">
+       <bool>true</bool>
       </property>
      </widget>
     </item>
