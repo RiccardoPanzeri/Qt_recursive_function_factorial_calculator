@@ -13,6 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->lcdNumber_risultato->setDigitCount(10);
     ui->lineEdit_numero->setText("0");
+
 }
 
 MainWindow::~MainWindow()

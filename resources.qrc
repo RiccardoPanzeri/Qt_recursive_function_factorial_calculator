@@ -1,1 +1,6 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/img">
+        <file>img/darksteel.png</file>
+        <file>img/—Pngtree—abstract metal background_3550153.jpg</file>
+    </qresource>
+</RCC>
